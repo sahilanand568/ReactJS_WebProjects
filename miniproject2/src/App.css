@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(5, 188, 69, 0.8);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(41, 0, 226);
+    padding: 3%;
+}
+
+button {
+    margin: 4% 0.5%;
+    padding: 0.25% 0.5%;
+    cursor: pointer;
+    background-color: aqua;
+    border: none;
+    border-radius: 0.25vw;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.92);
+    background-color: rgba(4, 208, 133, 0.8);
+}
