@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 1%;
+  margin: 1%;
+  border-radius: 0.75vw;
+  transition: transform 0.5s ease-in;
+  /* color:#6495ed; */
+  /* color: #d87093; */
+  /* Pale Violet Red  */
+  /* color:#80FF72; */
+  /* Screamin Green  */
+  /* color:#ff6347 */
+  /* Tomato */
+}
+
+.cross {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cross:active {
+  transform: scale(0.72);
+}
