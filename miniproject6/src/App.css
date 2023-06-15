@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.App{
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  /* border:2px solid red; */
+  align-items:center;
+  justify-content: center;
+  background-color:#f6f6f1 ;
+}
+p{
+  font-size: 1.8rem;  
+  color:white;
+  margin:2%;
+  padding:5%;
+  border-radius:50%;
+  background-color:rgb(255, 17, 0);
+  border:2px solid black;
+}
+.button-box{
+  width:15%;
+  display:flex;
+  justify-content: space-around;
+}
+button{
+width:5vw;
+color:white;
+cursor:pointer;
+background-color: black;
+padding:5%;
+border-radius:1vw;
+margin:20% 0%;
+}
+button:active{
+  transform:scale(0.92);
+}
