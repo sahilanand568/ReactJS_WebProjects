@@ -1,0 +1,55 @@
+*{
+ box-sizing: border-box;
+ margin:0;
+ padding:0; 
+}
+
+.container,.top-box{
+  display:flex;
+  flex-direction:column ;
+  align-items:center;
+  padding:1%;
+  font-size:1.2rem;
+}
+h1{
+  margin:4% 0%;
+}
+.bottom-box{
+  width:25%;
+  color:white;
+  background-color:rgb(2, 2, 85);
+  font-size: 1.35rem;
+  padding:1% 0.25%;
+  border-top-left-radius:0.5vw;
+  border-top-right-radius:0.5vw;
+}
+
+.bottom-midsection{
+  width:25%;
+  display:flex;
+}
+
+.bottom-footsection{
+  width:25%;
+  display:flex;
+  justify-content: space-between;
+  background-color:rgb(2, 2, 85);
+  color:white;
+  font-size: 1.5rem;
+  padding:1% 0.25%;
+  border-bottom-left-radius:0.5vw;
+  border-bottom-right-radius:0.5vw;
+}
+.heart-unfilled{
+  cursor: pointer;
+}
+.heart-filled{
+  cursor: pointer;
+  color:red;
+}
+
+.dogImage{
+  width:100%;
+  height:50vh;
+  cursor:pointer;
+}
