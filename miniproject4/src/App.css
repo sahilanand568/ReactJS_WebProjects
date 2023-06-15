@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@400;600;700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  margin:2%;
+  font-family: 'Architects Daughter', cursive;
+}
+
+button{
+  color:white;
+  width:12vw;
+  background-color: rgb(4, 137, 137);
+  font-size:1.1rem;
+  padding:0.25% 0.25%;
+  margin:0.5%;
+  cursor:pointer;
+  border-radius:0.5vw;
+  border:none;
+}
+button:active{
+  transform:scale(0.92);
+}
+.icon-design{
+  font-size:1.2rem;
+  margin:0% 0.5%;
+}
+.foot-section{
+  font-size: 2.2rem;
+  color:blueviolet;
+  margin:2% 0.5%;
+}
+
+.posts-style{
+  border:2px solid grey;
+  border-radius:0.5vw;
+  margin:2% 0%;
+  padding:1%;
+  box-shadow: 1px 1px 5px 2px grey;
+}
+.users-styleName{
+  background-color:rgb(133, 80, 219);
+  color:white;
+  font-size: 1.1rem;
+  margin:1% 0%;
+  padding:1% 0%;
+  border-top-left-radius: 0.5vw;
+  border-top-right-radius: 0.5vw;
+}
+.users-styleEmail{
+  background-color:rgb(133, 80, 219);
+  font-size:0.8rem;
+  color:white;
+  margin:1% 0%;
+  padding:0.5% 0%;
+  border-bottom-left-radius: 0.5vw;
+  border-bottom-right-radius: 0.5vw;
+}
