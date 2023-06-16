@@ -1,0 +1,46 @@
+*{
+  box-sizing:border-box;
+}
+
+.App{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input{
+  font-size: 1.25rem;
+  margin:2%;
+
+}
+.card-box{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  width:22%;
+  word-wrap: break-word ;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border:1px solid red;
+  border-radius: 0.5vw;
+  margin:1%;
+}
+
+.name{
+  width:100%;
+  color:white;
+  background-color: red;
+  margin-top: 0;
+  padding:2%;
+  border-top-left-radius: 0.5vw;
+  border-top-right-radius: 0.5vw;
+}
+
+span{
+  font-weight: bold;
+}
