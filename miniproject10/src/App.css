@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.App{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#inputBox{
+  /* color:white; */
+/* border:5px solid red; */
+border:none;
+border-bottom: 1px solid black;
+outline:none;
+padding:2% 5%;
+margin:3%;
+background-color: rgb(189, 32, 197);
+box-shadow: 5px 5px 39px 48px rgb(189, 32, 197);
+}
+#inputBox::placeholder{
+  color:white;
+  text-align: center;
+}
