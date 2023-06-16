@@ -1,0 +1,68 @@
+.App{
+  /* border:1px solid grey; */
+  width:35%;
+  border-radius:1vw;
+  padding:1%;
+  margin:2% auto;
+  box-shadow: 2px 2px 5px 2px rgb(46, 45, 45);
+}
+.bounce{
+  animation: bounce 0.5s linear;
+}
+
+@keyframes bounce{
+  0%{
+    transform:translateY(-200px);
+    opacity:0;
+  }
+  100%{
+    transform:translateY(0);
+    opacity:1;
+  }
+}
+.box-1,.box-2{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border:2px solid red; */ 
+}
+
+.icon-style{
+  font-size:7.5rem;
+}
+
+/* Styling the buttons */
+
+button{
+  width:25%;
+  cursor:pointer;
+  background:transparent;
+  border:none;
+  border-radius:0.5vw;
+  font-size:1.25rem;
+  padding:1.5%;
+}
+
+button:active{
+  transform: scale(0.92);
+}
+
+.cancel-button{
+  box-shadow: 1px 1px 3px 2px rgb(46, 45, 45);
+}
+
+.Unsubscribe-button{
+  color:white;
+  background-color: red;
+  width:75%;
+  margin:auto;
+}
+
+.Subscribe-button{
+  color:white;
+  background-color: red;
+}
+.addOn{
+  position:relative;
+  left:75%;
+}
