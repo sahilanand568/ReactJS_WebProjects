@@ -1,0 +1,29 @@
+
+.App{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.range-button{
+  appearance:none;
+  width:35%;
+  background-color: rgb(166, 160, 151);
+  border-radius: 5vw;
+}
+.range-button::-webkit-slider-thumb{
+  appearance:none;
+  width:15px;
+  height:15px;
+  background:rgb(43, 154, 239);
+  border-radius: 50%;
+}
+.paraBox{
+  /* border: 2px solid red; */
+  background-color: aqua;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
